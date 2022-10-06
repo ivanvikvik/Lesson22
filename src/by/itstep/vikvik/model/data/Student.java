@@ -8,12 +8,12 @@ public class Student {
     public boolean alive;
 
     // default constructor
-//    public Student() {
-//        name = "no name";
-//        mark = 4;
-//        age = 16;
-//        alive = true;
-//    }
+    public Student() {
+        name = "no name";
+        mark = 4;
+        age = 16;
+        alive = true;
+    }
 
     // constructor with params
     public Student(String n, int a, double m, boolean al) {
@@ -42,12 +42,12 @@ public class Student {
     }
 
     // copy-constructor
-    public Student(Student student) {
-        name = student.name;
-        age = student.age;
-        mark = student.mark;
-        alive = student.alive;
-    }
+//    public Student(Student student) {
+//        name = student.name;
+//        age = student.age;
+//        mark = student.mark;
+//        alive = student.alive;
+//    }
 
 
     public String getInfo() {
